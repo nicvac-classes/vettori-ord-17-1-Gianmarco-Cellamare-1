@@ -8,18 +8,26 @@ class Esercizio {
     // Il programma parte con una chiamata a main().
     public static void main(String args[])
     {
-        //Variabili del programma
-        String nome;
-
-        //Creo l'oggetto in per l'input da tastiera
+        int;
         Scanner in = new Scanner( System.in );
+        int i,N
+        int [N] Vp;
+        int [N] Vd;
+        int Np,Nd;
+        n1=0;
+        n2=0;
+        i=0;
+        while (i<=N-1){
+            x=random(x*10)*1;
+            if (x%2==0){
+                Vp[Np]=x;
+                ++Np;
+            }else {
+                Vd[Nd]=x;
+                ++Nd;
+            }
+        }
 
-        //Leggo l'input da tastiera
-        System.out.print("Inserisci il tuo nome: ");
-        nome = in.nextLine();
-
-        //Output del nome acquisito da tastiera
-        System.out.println("Ciao "+nome+"!");
     }
 }
 
